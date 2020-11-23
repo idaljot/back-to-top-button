@@ -1,0 +1,17 @@
+/*back-to-top button*/
+
+#back-to-top
+{
+	background-image: url('https://img.icons8.com/emoji/2x/top-arrow-emoj.png');
+	background-size: 48px 48px;
+	background-repeat: no-repeat;
+	height: 48px;
+	width: 48px;
+	position: fixed;
+	bottom: 17px;
+	right: 17px;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.7s linear;
+	cursor: pointer;
+}
